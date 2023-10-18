@@ -6,7 +6,7 @@
 body {
   background-color: lightblue;
   background: white url('../images/achtergrond.png') repeat;
-  color: white;
+  color: white
 }
 
 header {
@@ -65,7 +65,6 @@ ul li a:hover {
 
 section {
 padding: 5px;
-border: double 4px black;
 height: 99%;
 }
 
@@ -89,7 +88,7 @@ article p {
 
 footer {
   position: fixed;
-  width: 100%;
+  width: 76%;
   background-color: rgb(17,7,29);
 }
 
@@ -117,7 +116,7 @@ p{
 }
 
 
-#container {
+.container {
   display: grid;
   grid-template-columns: 4fr 9fr;
   grid-template-areas: "hoofd hoofd"
@@ -125,24 +124,24 @@ p{
                        "voet voet";
 }
 
-#bovenbalk {
+.bovenbalk {
   grid-area: hoofd;
 }
 
-#linkerkolom {
+.linkerkolom {
   grid-area: menu;
   min-height: 70px;
   overflow: hidden;
 }
 
-#centrum {
+.centrum {
   grid-area: midden;
 
 min-height: 425px;
 
 }
 
-#footer {
+.footer {
   grid-area: voet;
 
 min-height: 59px;
@@ -150,5 +149,5 @@ min-height: 59px;
 }
 
 .menuplaatje{
-  width: 30%;
+  width: 89%;
 }
