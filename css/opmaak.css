@@ -22,9 +22,15 @@ header h1 {
   text-shadow: 9px 9px 9px #000000;
 }
 
+
 ul {
   background-color: rgb(17,7,59) ;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 ul li:hover {
@@ -36,6 +42,8 @@ ul li {
   padding: 5px;
   border: solid 2px black;
   display: inline-block;
+  padding-right: 5%;
+  max-width: 85%;
 }
 
 ul li:nth-child(even) {
@@ -58,6 +66,7 @@ ul li a:hover {
 section {
 padding: 5px;
 border: double 4px black;
+height: 99%;
 }
 
 section article {
@@ -79,7 +88,8 @@ article p {
 }
 
 footer {
-  postion: fixed;
+  position: fixed;
+  width: 100%;
   background-color: rgb(17,7,29);
 }
 
@@ -98,11 +108,11 @@ p{
  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.plaatje{
+#plaatje{
   float: right;
 }
 
-.plaatje1{
+#plaatje1{
   float: left;
 }
 
@@ -117,11 +127,12 @@ p{
 
 #bovenbalk {
   grid-area: hoofd;
-  height: 50px;
 }
 
 #linkerkolom {
   grid-area: menu;
+  min-height: 70px;
+  overflow: hidden;
 }
 
 #centrum {
@@ -136,4 +147,8 @@ min-height: 425px;
 
 min-height: 59px;
 
+}
+
+.menuplaatje{
+  width: 30%;
 }
