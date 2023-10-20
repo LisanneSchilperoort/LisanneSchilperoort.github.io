@@ -26,11 +26,6 @@ header h1 {
 ul {
   background-color: rgb(17,7,59) ;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  position: relative;
 }
 
 ul li:hover {
@@ -43,7 +38,6 @@ ul li {
   border: solid 2px black;
   display: inline-block;
   padding-right: 5%;
-  max-width: 85%;
 }
 
 ul li:nth-child(even) {
@@ -113,41 +107,4 @@ p{
 
 #plaatje1{
   float: left;
-}
-
-
-.container {
-  display: grid;
-  grid-template-columns: 4fr 9fr;
-  grid-template-areas: "hoofd hoofd"
-                       "menu midden"
-                       "voet voet";
-}
-
-.bovenbalk {
-  grid-area: hoofd;
-}
-
-.linkerkolom {
-  grid-area: menu;
-  min-height: 70px;
-  overflow: hidden;
-}
-
-.centrum {
-  grid-area: midden;
-
-min-height: 425px;
-
-}
-
-.footer {
-  grid-area: voet;
-
-min-height: 59px;
-
-}
-
-.menuplaatje{
-  width: 89%;
 }
