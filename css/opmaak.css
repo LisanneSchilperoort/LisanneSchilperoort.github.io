@@ -25,7 +25,7 @@ header h1 {
 
 ul {
   background-color: rgb(17,7,59) ;
-  padding: 10px;
+  padding: 9px;
 }
 
 ul li:hover {
@@ -34,10 +34,10 @@ ul li:hover {
 
 ul li {
   background-color: rgb(35,24,88) ;
-  padding: 5px;
+  padding: 4px;
   border: solid 2px black;
   display: inline-block;
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 ul li:nth-child(even) {
@@ -107,4 +107,40 @@ p{
 
 #plaatje1{
   float: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 9fr;
+  grid-template-areas: "hoofd hoofd"
+                       "menu midden"
+                       "voet voet";
+}
+
+.bovenbalk {
+  grid-area: hoofd;
+}
+
+.linkerkolom {
+  grid-area: menu;
+  min-height: 70px;
+  overflow: hidden;
+}
+
+.centrum {
+  grid-area: midden;
+
+min-height: 425px;
+
+}
+
+.footer {
+  grid-area: voet;
+
+min-height: 59px;
+
+}
+
+#menuplaatje{
+  width: 89%
 }
