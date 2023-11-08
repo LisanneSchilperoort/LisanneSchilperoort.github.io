@@ -148,25 +148,30 @@ min-height: 59px;
 
 }
 
-#menuplaatje{
-  width: 89%
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
    .container {
      display: block;
     }
 
-    ul {
-      border-radius: 0px;
+    .wrapper {
+      width: 90%;
+      padding: 1px;
     }
 
-    ul li {
+    ul {
+      border-radius: 0px;
+      padding: 4px;
+      height: 25%;
       width: 100%;
     }
 
+    ul li {
+      width: 89%;
+    }
+
     header{
-      width: 100%
+      width: 100%;
+      height: 20%;
     }
 
 }
