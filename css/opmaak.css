@@ -66,7 +66,7 @@ ul li a:hover {
 }
 
 section {
-padding: 5px;
+padding: 3px;
 height: 99%;
 }
 
@@ -101,7 +101,7 @@ footer h3 {
 
 .wrapper {
   margin: 0 auto 0 auto;
-  width: 960px;
+  width: 95%;
 }
 
 p{
@@ -118,7 +118,7 @@ p{
 
 .container {
   display: grid;
-  grid-template-columns: 200px 900px;
+  grid-template-columns: 200px 989px;
   grid-template-areas: "hoofd hoofd"
                        "menu midden"
                        "voet voet";
@@ -154,8 +154,8 @@ min-height: 59px;
     }
 
     .wrapper {
-      width: 90%;
-      padding: 1px;
+      width: 95%;
+      padding: 2px;
     }
 
     ul {
